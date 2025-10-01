@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="navbar glass">
+    <div class="logo">vishwash prajapati</div>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section class="hero glass">
+    <img src="WhatsApp Image 2025-10-01 at 15.32.27_996e4fd6.jpg" alt="vishwash prajapati" class="profile-photo" />
+    <h1>Hello, I'm <span class="highlight">vishwash prajapati</span></h1>
+    <p>B.Tech Student | Aspiring Developer </p>
+
+    <div class="social-links">
+      <a href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+        <img src="icons8-github-90.png" alt="GitHub" />
+      </a>
+      <a href="https://www.linkedin.com/in/vishwash-prajapati-a96a43382?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+        <img src="icons8-linkedin-96.png" alt="LinkedIn" />
+      </a>
+      <a href="https://twitter.com/yourusername" target="_blank" rel="noopener noreferrer" aria-label="Twitter">
+        <img src="Screenshot (23).png" alt="greeks for greeks" />
+      </a>
+    </div>
+  </section>
+
+  <section id="about" class="section glass reveal">
+    <h2>About Me</h2>
+    <p>I’m a B.Tech student with a strong interest in programming, development, and problem-solving. I’m passionate about learning new technologies and applying them to real-world projects. Currently, I'm working on strengthening my skills in web development and DSA, and I’m excited to contribute to collaborative tech communities like the GFG Technical Club.</p>
+    <br>
+    <p>My goal is to grow as a developer by working on innovative projects, participating in coding challenges, and continuously improving my technical and teamwork skills.</p>
+  </section>
+
+  <section id="skills" class="section glass reveal">
+    <h2>Skills</h2>
+    <ul class="skills">
+      <li>HTML5</li>
+      <li>CSS3</li>
+      <li>JavaScript</li>
+      <li>Python and flask Basics</li>
+      <li>C/C++</li>
+      <li>Git & GitHub</li>
+    </ul>
+  </section>
+
+  <section id="projects" class="section glass reveal">
+    <h2>Projects</h2>
+    <div class="project">
+      <h3>Portfolio Website</h3>
+      <p>A personal portfolio built using HTML, CSS, and JavaScript to showcase my skills and projects.</p>
+    </div>
+    <div class="project">
+      <h3>Product Landing Page </h3>
+      <p>A responsive product landing page built using HTML, CSS, and JavaScript. It features a modern design with sections for product details, features, pricing, testimonials, and a contact form.</p>
+    </div>
+  </section>
+
+  <section id="contact" class="section glass reveal">
+    <h2>Contact Me</h2>
+    <form id="contactForm">
+      <input type="text" name="name" placeholder="Your Name" required />
+      <input type="email" name="email" placeholder="Your Email" required />
+      <textarea name="message" placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+    <p id="formStatus"></p>
+  </section>
+
+  <footer class="glass">
+    <p>&copy; 2025 vishwash prajapati. Built for GFG Club Application</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
